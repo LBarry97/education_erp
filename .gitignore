@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+*.pyc
+
+# File managers
+*~
+*.swp
+.directory
+
+# Geany editor
+*.geany
+
+# NinjaIDE
+.*.nja
+
+# Eclipse
+.project
+.pydevproject
+.settings
+
+# Netbeans
+nbproject/
+
+# PyCharm
+.idea
+
+# py.test
+.cache
+.testmondata
+.tmontmp
+.hypothesis
+
+# Local settings
+src/config/*.ini
