@@ -33,4 +33,4 @@ nbproject/
 .hypothesis
 
 # Local settings
-src/config/*.ini
+*.ini
