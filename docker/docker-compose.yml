@@ -5,15 +5,13 @@ services:
     depends_on:
       - db
     ports:
-      - "80:7003"
+      - "8069:8069"
     volumes:
-      - ./lib_odoo:/var/lib/odoo
+      - /var/lib/odoo
       - ../src/extra_addons/:/mnt/extra-addons
   db:
     image: postgres:10
     env_file:
       - env_file.env
-    ports:
-      - "5435:5432"
     volumes:
-      - ./pg_data:/var/lib/postgresql/data/pgdata
+      - /var/lib/postgresql/data/pgdata
