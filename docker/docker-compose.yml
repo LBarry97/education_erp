@@ -7,11 +7,11 @@ services:
     ports:
       - "8069:8069"
     volumes:
-      - /var/lib/odoo
+      - ./lib_odoo:/var/lib/odoo
       - ../src/extra_addons/:/mnt/extra-addons
   db:
     image: postgres:10
     env_file:
       - env_file.env
     volumes:
-      - /var/lib/postgresql/data/pgdata
+      - ./pg_data:/var/lib/postgresql/data/pgdata
