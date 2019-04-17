@@ -1,12 +1,12 @@
 [options]
-addons_path = /mnt/extra-addons
+addons_path = addons,odoo/addons,../extra_addons/openeducat,../extra_addons/web
 data_dir = /var/lib/odoo
 admin_passwd = admin
 csv_internal_sep = ,
 db_maxconn = 64
-db_name = False
+db_name = ihsanerpdb
 db_template = template1
-dbfilter = .*
+dbfilter = ^ihsanerpdb.*
 debug_mode = False
 email_from = False
 limit_memory_hard = 2684354560
@@ -18,7 +18,7 @@ list_db = True
 log_db = False
 log_handler = [':INFO']
 log_level = info
-logfile = None
+logfile = ../../logs/ihsanerp_log_file.txt
 longpolling_port = 8072
 max_cron_threads = 2
 osv_memory_age_limit = 1.0

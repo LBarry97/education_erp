@@ -34,3 +34,6 @@ nbproject/
 
 # Local settings
 *.ini
+
+# Logs
+ihsanerp_log_file.txt
