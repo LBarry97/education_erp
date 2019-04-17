@@ -33,4 +33,7 @@ nbproject/
 .hypothesis
 
 # Local settings
-src/config/*.ini
+*.ini
+
+# Logs
+ihsanerp_log_file.txt
