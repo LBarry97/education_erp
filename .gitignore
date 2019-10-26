@@ -15,6 +15,9 @@ __pycache__/
 # NinjaIDE
 .*.nja
 
+# Code
+.vscode/
+
 # Eclipse
 .project
 .pydevproject
