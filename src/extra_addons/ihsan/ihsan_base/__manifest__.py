@@ -11,7 +11,8 @@
     'website': 'http://www.ihsanmallorca.es',
     'depends': ['base'],
     'data': [
-
+        'security/ihsan_base_security.xml',
+        'menu/ihsan_base_hidden_menu.xml'
     ],
     'demo': [
 

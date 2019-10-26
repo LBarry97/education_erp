@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Openeducat Core Menu -->
+        <record id="openeducat_core.menu_op_school_root" model="ir.ui.menu">
+            <field name="groups_id" eval="[(6,0,[ref('group_ihsan_make_invisible')])]"/>
+        </record>
+        
+    </data>
+</odoo>

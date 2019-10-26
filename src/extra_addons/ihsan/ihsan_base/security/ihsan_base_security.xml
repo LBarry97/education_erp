@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="group_ihsan_make_invisible" model="res.groups">
+            <field name="name">Show hidden functionalities</field>
+        </record>
+    </data>
+</odoo>
