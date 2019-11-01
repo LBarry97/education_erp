@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ihsan_lang_level,access_ihsan_lang_level,model_ihsan_lang_level,base.group_user,1,0,0,0
+access_ihsan_school,access_ihsan_school,model_ihsan_school,base.group_user,1,1,1,1
