@@ -1,2 +1,2 @@
 # Ihsan
-## Education Management for Ihsan comuniti
+## Education Management For Ihsan Community

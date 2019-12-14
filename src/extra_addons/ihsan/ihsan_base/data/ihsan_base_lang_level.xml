@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="lang_A1" model="ihsan.lang.level">
+            <field name="name">Principiante</field>
+            <field name="code">A1</field>
+            <field name="description">Serás capaz de leer y escribir, además de comprender y utilizar expresiones cotidianas de uso frecuente como los saludos, presentaciones, información de tu domicilio, tu familia, y tendrás una conversación básica.</field>
+        </record>
+
+        <record id="lang_A2" model="ihsan.lang.level">
+            <field name="name">Inicial</field>
+            <field name="code">A2</field>
+            <field name="description">Serás capaz de leer y entender textos sencillos, tener una conversación y diálogos sencillos con la gramática y el vocabulario utilizados en clase, siendo expresiones de uso frecuente sobre ti mismo, tu ocio, necesidades básicas diarias.</field>
+        </record>
+
+        <record id="lang_B1" model="ihsan.lang.level">
+            <field name="name">Intermedio</field>
+            <field name="code">B1</field>
+            <field name="description">Serás capaz de entender y escribir textos y expresar tus ideas, participar en debates y conversaciones de situaciones sobre temas que te son familiares o de interés personal.</field>
+        </record>
+
+        <record id="lang_B2" model="ihsan.lang.level">
+            <field name="name">Intermedio alto</field>
+            <field name="code">B2</field>
+            <field name="description">Serás capaz de entender las ideas principales de textos complejos y técnicos, y tener conversación fluida y natural con hablantes nativos de temas generales.</field>
+        </record>
+
+        <record id="lang_C1" model="ihsan.lang.level">
+            <field name="name">Avanzado</field>
+            <field name="code">C1</field>
+            <field name="description">Serás capaz de comprender, reconocer y construir, en todo su contexto, textos complejos y podrás expresarte sin esfuerzo y adecuadamente de forma oral.</field>
+        </record>
+
+        <record id="lang_C2" model="ihsan.lang.level">
+            <field name="name">Maestría</field>
+            <field name="code">C2</field>
+            <field name="description">Serás capaz de dominar de forma natural y fluida la lengua, ya sea hablada o escrita.</field>
+        </record>
+    </data>
+</odoo>
